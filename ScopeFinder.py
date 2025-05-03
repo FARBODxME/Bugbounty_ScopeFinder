@@ -6,24 +6,23 @@ from urllib.parse import urlparse
 from colorama import Fore, Style
 import pyfiglet
 
-print(Fore.MAGENTA + pyfiglet.figlet_format("Scope Finder", font="doom"))
+# print(Fore.MAGENTA + pyfiglet.figlet_format("Scope Finder", font="doom"))
 
-# print(Fore.RED + """
-# ███████╗ ██████╗ ██████╗ ██████╗ ███████╗     ███████╗██╗███╗   ██╗██████╗ ███████╗██████╗
-# ██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔════╝     ██╔════╝██║████╗  ██║██╔══██╗██╔════╝██╔══██╗
-# ███████╗██║     ██║   ██║██████╔╝█████╗ """+ Fore.WHITE+ '█████' +Fore.RED+""" █████╗  ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝
-# ╚════██║██║     ██║   ██║██╔═══╝ ██╔══╝       ██╔══╝  ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗
-# ███████║╚██████╗╚██████╔╝██║     ███████╗     ██║     ██║██║ ╚████║██████╔╝███████╗██║  ██║
-# ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚══════╝     ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝
-#
-# """ + Style.RESET_ALL)
+print(Fore.RED + """
+███████╗ ██████╗ ██████╗ ██████╗ ███████╗     ███████╗██╗███╗   ██╗██████╗ ███████╗██████╗
+██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔════╝     ██╔════╝██║████╗  ██║██╔══██╗██╔════╝██╔══██╗
+███████╗██║     ██║   ██║██████╔╝█████╗ """+ Fore.WHITE+ '█████' +Fore.RED+""" █████╗  ██║██╔██╗ ██║██║  ██║█████╗  ██████╔╝
+╚════██║██║     ██║   ██║██╔═══╝ ██╔══╝       ██╔══╝  ██║██║╚██╗██║██║  ██║██╔══╝  ██╔══██╗
+███████║╚██████╗╚██████╔╝██║     ███████╗     ██║     ██║██║ ╚████║██████╔╝███████╗██║  ██║
+╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚══════╝     ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+""" + Style.RESET_ALL)
 
 # configs
-DISCORD_WEBHOOK_URL = ""
+DISCORD_WEBHOOK_URL = "<Your discord webhook>" #replace whit your discord webhook
 H1_GITHUB_URL = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/hackerone_data.json"
 BUGCROWD_URL = "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/refs/heads/main/data/bugcrowd_data.json"
-H1_SEEN_FILE = "ScopeFinder/seen_h1.json"
-BUGCROWD_SEEN_FILE = "ScopeFinder/seen_bugcrowd.json"
+H1_SEEN_FILE = "seen_h1.json"
+BUGCROWD_SEEN_FILE = "seen_bugcrowd.json"
 HACKERONE_LINK = "https://hackerone.com/"
 BUGCROWD_LINK = "https://bugcrowd.com/engagements/"
 
@@ -245,4 +244,4 @@ if __name__ == "__main__":
             print(Fore.YELLOW + "⏳ No new targets found.")
 
         first_run = False
-        time.sleep(1800)  # 30min
+        time.sleep(1800) #30min
