@@ -6,8 +6,7 @@
 Scope Finder is a Python script that **monitors bug bounty program scopes** (from HackerOne and Bugcrowd) and **automatically sends new targets** to your Discord channel via webhook. Ideal for bug bounty hunters who want to stay ahead and catch new assets as soon as they're added.
 
 ![image](https://github.com/user-attachments/assets/b9ddbfff-ca4d-4209-b3dd-db8bf93a3f14)
-
-</br> </br>
+</br>
 
 ## 🚀 Features
 
