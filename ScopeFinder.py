@@ -6,7 +6,6 @@ from urllib.parse import urlparse
 from colorama import Fore, Style
 import pyfiglet
 
-# print(Fore.MAGENTA + pyfiglet.figlet_format("Scope Finder", font="doom"))
 
 print(Fore.RED + """
 ███████╗ ██████╗ ██████╗ ██████╗ ███████╗     ███████╗██╗███╗   ██╗██████╗ ███████╗██████╗
