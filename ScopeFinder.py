@@ -4,7 +4,6 @@ import time
 import os
 from urllib.parse import urlparse
 from colorama import Fore, Style
-import pyfiglet
 
 
 print(Fore.RED + """
