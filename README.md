@@ -62,4 +62,3 @@ python scope_finder.py
 - No database needed – simple & lightweight.
 ***
 Happy hacking! 🏴‍☠️ <br>
-omidvaram be karetoon biad<3
