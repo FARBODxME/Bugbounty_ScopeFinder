@@ -26,7 +26,7 @@ Scope Finder is a Python script that **monitors bug bounty program scopes** (fro
 
 ```bash
 git clone https://github.com/FARBODxME/Bugbounty_ScopeFinder.git
-cd scope-finder
+cd Bugbounty_ScopeFinder
 pip install -r requirements.txt
 ```
 ### Set your Discord webhook
