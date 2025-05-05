@@ -1,4 +1,4 @@
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Yourusername.ScopeFinder)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YourUsername.ScopeFinder)
 </br>
 
 # 🎯 Scope Finder
